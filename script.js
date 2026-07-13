@@ -3,10 +3,10 @@
 
   /* ======= EDIT YOUR CONTENT HERE ======= */
   const CONFIG = {
-    email: "aditya.cse24@gmail.com",
+    email: "aryanprakashbnp@gmail.com",
     terminalLines: [
       { cmd: "whoami" },
-      { out: "Aditya Kumar — Computer Science Student" },
+      { out: "Aryan Prakash — Computer Science Student" },
       { cmd: "status" },
       { out: "Available for freelance & full-time roles" },
       { cmd: "cat focus.txt" },
@@ -19,35 +19,23 @@
     ],
     projects: [
       {
-        title: "TravelBuddy",
-         desc: `Developed a full-stack AI-powered travel planning platform enabling users to generate itineraries, match with travel buddies,
-           manage group trips, and split/settle expenses.`,
-        tags: ["React 19", "Next.js 16", "TypeScript", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "OpenAI API"],
-        live: "https://travel-buddy-drab-sigma.vercel.app/", code: "https://github.com/adityakumar-cs24/travelbuddy"
+        title: "House Price Prediction",
+         desc: `An AI-powered web application that predicts residential property prices based
+          on user-provided property details using Machine Learning. The platform provides 
+          accurate price estimates through an intuitive and responsive interface..`,
+        tags: ["Python • Machine Learning • Scikit-learn • Pandas • NumPy • Streamlit • Regression • Data Preprocessing • Feature Engineering • EDA • Streamlit Cloud • Git • GitHub"],
+        code: "https://github.com/1aryan963/House_price-prediction"
       },
-      
-      {
-        title: "Amazon Clone",
-        desc: "Responsive Amazon landing page using HTML, CSS, and JavaScript with a focus on UI/UX design.",
-        tags: ["HTML", "CSS", "JavaScript"],
-        live: "#", code: "#"
-      },
-      {
-        title: "Snake Game",
-        desc: "Python Pygame implementation with score tracking.",
-        tags: ["Python", "Pygame"],
-        live: "#", code: "#"
-      }
     ],
     achievements: [
-      { year: "2026", title: " Competitive Programming", desc: "Solved 700+ DSA problems across coding platforms with a maximum LeetCode Contest Rating of 1590." },
-      { year: "2026", title: "LeetCode Contest", desc: "Achieved Global Rank 1601 in LeetCode Weekly Contest 505 among 35,000+ participants." },
+      { year: "2026", title: " Competitive Programming", desc: "Solved 500+ DSA problems across coding platforms with a maximum LeetCode Contest Rating of 1590." },
+      { year: "2026", title: "LeetCode Contest", desc: "Achieved Global Rank 1500 in LeetCode Weekly Contest 505 among 35,000+ participants." },
       { year: "2026", title: "Technical Events", desc: "Participated in the Google Big Code Challenge 2026 and multiple college hackathons, collaborating to build software solutions under strict deadlines." },
     ],
     socials: [
-      { label: "GitHub", handle: "@adityakumar-cs24", href: "https://github.com/adityakumar-cs24" },
-      { label: "LinkedIn", handle: "in/Aditya Kumar", href: "https://www.linkedin.com/in/aditya-kumar-6971a831b/" },
-      { label: "Email", handle: "aditya.cse24@gmail.com", href: "mailto:aditya.cse24@gmail.com" }
+      { label: "GitHub", handle: "@1aryan963", href: "https://github.com/1aryan963" },
+      { label: "LinkedIn", handle: "in/Aryan Prakash", href: "https://www.linkedin.com/in/aryan-prakash24/" },
+      { label: "Email", handle: "aryanprakashbnp@gmail.com", href: "mailto:aryanprakashbnp@gmail.com" }
     ]
   };
   // Keep the Email row in sync with CONFIG.email above.

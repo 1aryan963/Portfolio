@@ -6,7 +6,7 @@ A modern, responsive personal portfolio website built using **HTML5, CSS3, and J
 
 ## 👨‍💻 Developer
 
-**Aditya Kumar**
+**Aryan Prakash**
 
 - B.Tech Computer Science Student
 - Java Developer
@@ -78,41 +78,16 @@ Portfolio/
 ---
 
 ## 🚀 Projects Included
+### House Price Prediction
 
-### TravelBuddy
-
-An AI-powered travel planning platform featuring:
-
-- Trip Planning
-- Expense Tracking
-- AI Recommendations
-- Modern Responsive UI
+🏠 House Price Prediction – Predicts property prices using a trained Machine Learning model.
+📊 Data-Driven Predictions – Considers factors like area, number of bedrooms, bathrooms, location, and other property features.
+🤖 AI/ML Model – Uses regression algorithms to generate accurate price estimates.
+📈 Interactive User Interface – Modern, responsive web application with real-time prediction results.
+☁️ Cloud Deployment – Accessible online via Streamlit Cloud for easy use from any device.
 
 ---
 
-### Upzenic
-
-AI Job Mentor platform that provides career recommendations based on user skills.
-
----
-
-### Amazon Clone
-
-Responsive Amazon landing page developed using HTML and CSS.
-
----
-
-### Snake Game
-
-Python-based Snake Game developed using Pygame.
-
----
-
-### Tic Tac Toe
-
-Interactive Tic Tac Toe game built using JavaScript.
-
----
 
 ## 💻 Technical Skills
 
@@ -134,6 +109,7 @@ Interactive Tic Tac Toe game built using JavaScript.
 
 - SQL
 - MongoDB
+- PostgreSQL
 
 ### Tools
 
@@ -145,11 +121,9 @@ Interactive Tic Tac Toe game built using JavaScript.
 
 ## 🏆 Achievements
 
-- Solved **700+ DSA problems**
-- LeetCode Rating **1590**
-- Codeforces Rating **466**
+- Solved **500+ DSA problems**
+- LeetCode Rating **1500**
 - Top 5% in HackerRank SQL Challenge
-- Google Data Analytics Certificate
 
 ---
 
@@ -157,19 +131,11 @@ Interactive Tic Tac Toe game built using JavaScript.
 
 **Bachelor of Technology (Computer Science)**
 
-Current CGPA: **7.7**
+Current CGPA: **7.85**
 
 ---
 
-## 💼 Experience
 
-### Frontend Developer Intern
-
-**Alfido Tech**
-
-Worked on responsive websites using HTML, CSS, JavaScript, and modern frontend development practices.
-
----
 
 ## 📷 Screenshots
 

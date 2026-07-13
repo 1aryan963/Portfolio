@@ -16,7 +16,7 @@
     --font-display:'Space Grotesk',sans-serif;
     --font-body:'Source Serif 4',serif;
     --font-mono:'JetBrains Mono',monospace;
-    --maxw:1120px;
+    --maxw:1160px;
     color-scheme: dark;
   }
   html[data-theme="light"]{
