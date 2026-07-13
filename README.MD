@@ -173,15 +173,17 @@ Worked on responsive websites using HTML, CSS, JavaScript, and modern frontend d
 
 ## 📷 Screenshots
 
-Add screenshots of your portfolio inside the `assets/images` folder.
+| Home | About |
+|------|-------|
+| ![Home](assets/home.jpg) | ![About](assets/about.jpg) |
 
-Example:
+| Stack | Projects |
+|-------|----------|
+| ![Stack](assets/stack.jpg) | ![Projects](assetsproject.jpg) |
 
-```
-assets/images/home.png
-assets/images/projects.png
-assets/images/contact.png
-```
+| Achievements | Contact |
+|--------------|---------|
+| ![Achievements](assets/achievement.jpg) | ![Contact](assets/contact.jpg) |
 
 ---
 
