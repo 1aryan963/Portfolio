@@ -175,11 +175,11 @@ Worked on responsive websites using HTML, CSS, JavaScript, and modern frontend d
 
 | Home | About |
 |------|-------|
-| ![Home](assets/home.jpg) | ![About](assets/about.jpg) |
+| ![Home](assets/hero.jpg) | ![About](assets/about.jpg) |
 
 | Stack | Projects |
 |-------|----------|
-| ![Stack](assets/stack.jpg) | ![Projects](assetsproject.jpg) |
+| ![Stack](assets/stack.jpg) | ![Projects](assets/project.jpg) |
 
 | Achievements | Contact |
 |--------------|---------|
