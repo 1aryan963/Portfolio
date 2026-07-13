@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Kumar</title>
+<meta name="description" content="Portfolio of Aditya Kumar, software engineer. Skills, projects, achievements and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="#home" class="brand"><span class="dot"></span>~/aditya.kumar</a>
+  <nav class="links" id="navLinks">
+    <a href="#about">about</a>
+    <a href="#skills">stack</a>
+    <a href="#work">work</a>
+    <a href="#achievements">log</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾ dark</button>
+    <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#about">about</a>
+  <a href="#skills">stack</a>
+  <a href="#work">work</a>
+  <a href="#achievements">log</a>
+  <a href="#contact">contact</a>
+</div>
+
+<main id="home">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Portfolio / 2026</div>
+
+        <h1>Hi, I'm <span>Aditya Kumar</span><br>Building software and solving problems with code.</h1>
+
+        <p class="role">Computer Science Undergraduate • Java Developer • DSA Enthusiast</p>
+
+        <p class="lede">
+          Passionate Computer Science student focused on Java, Data Structures & Algorithms, and Full Stack Development.
+          I enjoy building scalable web applications, exploring backend technologies, and continuously improving my
+          problem-solving skills through real-world projects.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">View Projects →</a>
+          <a href="Aditya_CV.pdf" class="btn btn-ghost" download>Download Resume</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>700+</h3>
+            <span>DSA Problems</span>
+          </div>
+
+          <div class="stat">
+            <h3>5+</h3>
+            <span>Projects</span>
+          </div>
+
+          <div class="stat">
+            <h3>7.7</h3>
+            <span>CGPA</span>
+          </div>
+
+          <div class="stat">
+            <h3>Java</h3>
+            <span>Primary Language</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="terminal-body" id="termBody"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <img src="profilephoto.jpeg" alt="Aditya Kumar" style="width:100%; height:100%; object-fit:cover; border-radius:var(--radius);">
+      </div>
+
+      <div class="about-text">
+        <div class="eyebrow">About</div>
+
+        <h2 style="font-size:clamp(26px,3.4vw,36px); margin-bottom:18px;">
+          A little about me.
+        </h2>
+
+        <p>
+          I'm a Computer Science undergraduate who enjoys solving problems and building practical software.
+          My primary language is Java, and I actively practice Data Structures & Algorithms while exploring
+          backend development and modern web technologies.
+        </p>
+
+        <p>
+          I have hands-on experience developing responsive web applications using HTML, CSS, JavaScript,
+          React, Next.js, and Tailwind CSS, along with working with SQL and MongoDB for efficient data management.
+        </p>
+
+        <p>
+          I believe in learning by building. Every project helps me strengthen my technical skills,
+          write cleaner code, and understand how real-world software is designed and developed.
+        </p>
+
+        <div class="facts">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Stack</div>
+          <h2>Technologies I work with.</h2>
+        </div>
+      </div>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Projects</div>
+          <h2>Selected projects.</h2>
+        </div>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Achievements</div>
+          <h2>Milestones &amp; recognition.</h2>
+        </div>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-info">
+        <div class="eyebrow">Contact</div>
+
+        <h2 style="font-size:clamp(26px,3.4vw,36px); margin-bottom:18px;">
+          Let's Connect.
+        </h2>
+
+        <p>
+          I'm always open to discussing internships, collaborations, exciting projects,
+          or simply connecting with fellow developers. Feel free to reach out—I'd love to hear from you.
+        </p>
+
+        <div class="social-list" id="socialList"></div>
+      </div>
+
+      <div>
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Send Message →
+          </button>
+
+          <p class="form-msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="statusbar">
+  <div class="sb-group">
+    <span id="sbSection">home</span>
+    <span class="sb-hide" id="sbScroll">0% scrolled</span>
+  </div>
+  <div class="sb-group">
+    <span class="sb-hide">UTF-8</span>
+    <span class="sb-hide" id="sbClock"></span>
+    <button id="sbTop">↑ top</button>
+  </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
