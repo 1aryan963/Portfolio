@@ -135,30 +135,12 @@ Current CGPA: **7.85**
 
 ---
 
-
-
-## 📷 Screenshots
-
-| Home | About |
-|------|-------|
-| ![Home](assets/hero.jpg) | ![About](assets/about.jpg) |
-
-| Stack | Projects |
-|-------|----------|
-| ![Stack](assets/stack.jpg) | ![Projects](assets/project.jpg) |
-
-| Achievements | Contact |
-|--------------|---------|
-| ![Achievements](assets/achievement.jpg) | ![Contact](assets/contact.jpg) |
-
----
-
 ## ⚙️ Installation
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/adityakumar-cs24/portfolio.git
+git clone https://github.com/1aryan963/Portfolio.git
 ```
 
 2. Open the project folder
@@ -188,15 +170,15 @@ The portfolio is fully responsive and works on:
 
 ### GitHub
 
-https://github.com/adityakumar-cs24
+https://github.com/1aryan963
 
 ### LinkedIn
 
-https://www.linkedin.com/in/aditya-kumar-6971a831b
+https://www.linkedin.com/in/aryan-prakash24/
 
 ### LeetCode
 
-https://leetcode.com/u/Adityakumar_cs24/
+https://leetcode.com/u/aryan_prakash/
 
 ---
 
