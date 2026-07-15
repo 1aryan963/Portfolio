@@ -151,6 +151,46 @@
     if(el) observer.observe(el);
   });
 
+  /* ======= CARD REVEAL ANIMATIONS ======= */
+  const revealCards = document.querySelectorAll('.skill-card, .project-card');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  revealCards.forEach(card => {
+    card.classList.add('reveal-card');
+    revealObserver.observe(card);
+  });
+
+  /* ======= CARD TILT EFFECT ======= */
+  if(window.matchMedia('(prefers-reduced-motion: no-preference)').matches){
+    const tiltElements = document.querySelectorAll('.skill-card, .project-card');
+    tiltElements.forEach(card => {
+      card.addEventListener('pointermove', event => {
+        const rect = card.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        const px = (x / rect.width) - 0.5;
+        const py = (y / rect.height) - 0.5;
+        const rotateY = px * 5;
+        const rotateX = -py * 5;
+        card.style.setProperty('--rotateX', `${rotateX}deg`);
+        card.style.setProperty('--rotateY', `${rotateY}deg`);
+      });
+      card.addEventListener('pointerleave', () => {
+        card.style.setProperty('--rotateX', '0deg');
+        card.style.setProperty('--rotateY', '0deg');
+      });
+      card.addEventListener('pointerenter', () => {
+        card.style.setProperty('--offset-y', '0px');
+      });
+    });
+  }
+
   /* ======= SCROLL PROGRESS + CLOCK IN STATUS BAR ======= */
   const sbScroll = document.getElementById('sbScroll');
   function updateScroll(){
